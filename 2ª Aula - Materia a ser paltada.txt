@@ -1,0 +1,8 @@
+Logo após a revisão, deve ser passado as seguintes TAGS:
+
+1- Lista, UL, LI, OL, LI, A e IMG
+
+UL - lista não-ordenada
+OL - lista ordenada
+A - LINK
+IMG - Imagem
