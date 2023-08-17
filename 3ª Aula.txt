@@ -1,8 +1,0 @@
-Logo após a revisão, deve ser passado as seguintes TAGS:
-
-1- Lista, UL, LI, OL, LI, TH
-
-UL - lista não-ordenada
-OL - lista ordenada
-
-Logo após, deve ser passado o exercício do curriculo.
