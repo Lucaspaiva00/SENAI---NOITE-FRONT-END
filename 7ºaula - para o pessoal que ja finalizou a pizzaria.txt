@@ -1,0 +1,16 @@
+Crie uma Página Básica: Crie uma página HTML simples com um cabeçalho, um parágrafo de texto e uma imagem.
+
+Lista de Tarefas: Crie uma lista de tarefas usando elementos de lista (ul, ol, li).
+
+Tabela de Informações: Crie uma tabela para exibir informações, como uma lista de produtos ou dados fictícios.
+
+Página de Perfil: Crie uma página de perfil fictício com informações pessoais, foto e alguns detalhes interessantes.
+
+CSS Exercícios:
+Estilização Básica: Aplique estilos básicos como cores de fundo, fontes e margens a elementos HTML.
+
+Estilização de Texto: Experimente diferentes estilos de texto, como tamanho, cor, itálico, negrito, sublinhado, etc.
+
+Estilização de Botões: Crie diferentes estilos para botões (normal, hover, pressionado).
+
+Posicionamento Avançado: Pratique o posicionamento absoluto e relativo para criar layouts complexos.
