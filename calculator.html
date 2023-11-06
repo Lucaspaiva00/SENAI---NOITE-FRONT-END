@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcuator.css">
+</head>
+
+<body>
+    <header>
+        <div class="texto">
+            <span>CALCULADORA</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="calculator">
+            <div class="div_digitar">
+                <input type="text" placeholder="0" id="display" disabled>
+            </div>
+            <div class="primeira_linha">
+                <button>%</button>
+                <button>CE</button>
+                <button>C</button>
+                <button type="button" value="C" onclick="clearDisplay()"><=</button>
+            </div>
+            <div class="segunda_linha">
+                <button>1/x</button>
+                <button>x<sub>2</sub></button>
+                <button>V</button>
+                <button type="button" value="/" onclick="addToDisplay('/')">/</button>
+            </div>
+            <div class="terceira_linha">
+                <button type="button" value="7" onclick="addToDisplay('7')">7</button>
+                <button type="button" value="8" onclick="addToDisplay('8')">8</button>
+                <button type="button" value="9" onclick="addToDisplay('9')">9</button>
+                <button type="button" value="*" onclick="addToDisplay('*')">*</button>
+            </div>
+            <div class="quarta_linha">
+                <button type="button" value="4" onclick="addToDisplay('4')">4</button>
+                <button type="button" value="5" onclick="addToDisplay('5')">5</button>
+                <button type="button" value="6" onclick="addToDisplay('6')">6</button>
+                <button type="button" value="-" onclick="addToDisplay('-')">-</button>
+            </div>
+            <div class="quinta_linha">
+                <button type="button" value="1" onclick="addToDisplay('1')">1</button>
+                <button type="button" value="2" onclick="addToDisplay('2')">2</button>
+                <button type="button" value="3" onclick="addToDisplay('3')">3</button>
+                <button type="button" value="+" onclick="addToDisplay('+')">+</button>
+            </div>
+            <div class="ultima_linha">
+                <button>+/-</button>
+                <button type="button" value="0" onclick="addToDisplay('0')">0</button>
+                <button>,</button>
+                <button  type="button" value="=" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
